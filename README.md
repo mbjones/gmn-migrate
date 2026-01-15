@@ -41,7 +41,7 @@ connection information to the source database, and the `--to-dsn` points at the 
 The `--temp-db-dsn` is the temporary database used to do the comparisons.
 
 ```sh
-❯ jones@firn $ pg-schema-diff plan --from-dsn "postgres://gmn@localhost:5555/gmn2" --include-schema "public" --temp-db-dsn "postgres://postgres:some_secure_pw@localhost:5432/postgres" --to-dsn "postgres://gmn@localhost:5555/gmn_arm" > gmn2-to-gmn-arm.sql
+❯ schema-diff plan --from-dsn "postgres://gmn@localhost:5555/gmn2" --include-schema "public" --temp-db-dsn "postgres://postgres:some_secure_pw@localhost:5432/postgres" --to-dsn "postgres://gmn@localhost:5555/gmn_arm" > gmn2-to-gmn-arm.sql
 ```
 
 ## 5. Compare gmn2 to gmn_cary_figshare as well
