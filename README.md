@@ -59,7 +59,7 @@ This makes sense in that both `gmn_arm` and `gmn_cary_figshare` use the same ver
 ❯ 
 ```
 
-# 7. Diff object listings from the two schemas
+## 7. Diff object listings from the two schemas
 
 By listing all of the objects in each database, we can also compare which tables, sequences, and other 
 data structures exist in each schema. To do this, I saved listings of the objects in `gmn2` (list-gmn2.txt)
